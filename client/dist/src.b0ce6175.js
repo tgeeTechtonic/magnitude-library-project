@@ -28407,7 +28407,7 @@ var App = /*#__PURE__*/function (_Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", null, "New Application...?"));
+      return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", null, "Application"));
     }
   }]);
 
@@ -28415,7 +28415,7 @@ var App = /*#__PURE__*/function (_Component) {
 }(_react.Component);
 
 exports.default = App;
-},{"react":"../node_modules/react/index.js"}],"../src/index.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js"}],"../src/index.jsx":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -28428,8 +28428,7 @@ var _App = _interopRequireDefault(require("./containers/App"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// const Application: React.FC<{}> = () => <h1>Application</h1>;
-(0, _reactDom.render)(_react.default.createElement(_App.default, null), document.getElementById('root'));
+(0, _reactDom.render)( /*#__PURE__*/_react.default.createElement(_App.default, null), document.getElementById('root'));
 },{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./assets/index.scss":"../src/assets/index.scss","./containers/App":"../src/containers/App.jsx"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -28458,7 +28457,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64341" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64386" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -28634,5 +28633,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","../src/index.tsx"], null)
-//# sourceMappingURL=/src.62c16509.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","../src/index.jsx"], null)
+//# sourceMappingURL=/src.b0ce6175.js.map
