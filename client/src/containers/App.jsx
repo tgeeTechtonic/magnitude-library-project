@@ -49,6 +49,8 @@ export default class App extends Component {
           </p>
           <button>Add a Book</button>
         </section>
+        
+        <footer>Copyright 2020 tg</footer>
       </main>
     );
   }
