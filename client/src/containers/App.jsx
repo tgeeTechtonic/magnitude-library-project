@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import heroImage from '../assets/images/hero.jpg';
 
 export default class App extends Component {
   render() {
@@ -12,6 +13,12 @@ export default class App extends Component {
           <input type="text" placeholder="Search by Title/Author" />
           <button>Search</button>
         </nav>
+
+        <section>
+          <h1>Books.</h1>
+          <h2>Reach em & weep</h2>
+          <img src={heroImage} alt="Library of Congress" />
+        </section>
       </main>
     );
   }
