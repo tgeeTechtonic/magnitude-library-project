@@ -3,9 +3,16 @@ import React, { Component } from 'react';
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Application</h1>
-      </div>
+      <main>
+        <nav>
+          <a href="#">The Library</a>
+          <a href="#">Home</a>
+          <a href="#">Bookshelf</a>
+          <a href="#">Add Book</a>
+          <input type="text" placeholder="Search by Title/Author" />
+          <button>Search</button>
+        </nav>
+      </main>
     );
   }
 }
