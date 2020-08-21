@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import heroImage from '../assets/images/hero.jpg';
 import NavBar from './NavBar';
+import Hero from '../components/Hero';
 
 export default class App extends Component {
   render() {
@@ -8,11 +8,7 @@ export default class App extends Component {
       <main>
         <NavBar />
 
-        <section>
-          <h1>Books.</h1>
-          <h2>Reach em & weep</h2>
-          <img src={heroImage} alt="Library of Congress" />
-        </section>
+        <Hero />
 
         <section>
           <h3>Welcome to the Library</h3>
@@ -43,7 +39,7 @@ export default class App extends Component {
           </p>
           <button>Add a Book</button>
         </section>
-        
+
         <footer>Copyright 2020 tg</footer>
       </main>
     );
