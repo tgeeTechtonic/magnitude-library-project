@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Hero from '../components/Hero';
 import WelcomeSection from '../components/WelcomeSection';
 import BookShelf from './BookShelf';
+import Book from '../components/Book';
 import Footer from '../components/Footer';
 
 export default class App extends Component {
@@ -13,6 +14,7 @@ export default class App extends Component {
         <Hero />
         <WelcomeSection />
         <BookShelf />
+        <Book />
         <Footer />
       </main>
     );
