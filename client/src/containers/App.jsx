@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import WelcomeSection from '../components/WelcomeSection';
 import BookShelf from './BookShelf';
 import Book from '../components/Book';
+import EditBook from '../components/EditBook';
 import Footer from '../components/Footer';
 
 export default class App extends Component {
@@ -15,6 +16,7 @@ export default class App extends Component {
         <WelcomeSection />
         <BookShelf />
         <Book />
+        <EditBook />
         <Footer />
       </main>
     );
